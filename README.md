@@ -19,14 +19,14 @@ Download Scratch from the official website: [Scratch Download](https://scratch.m
 **Note:** The installation paths vary based on where the applications are downloaded, affecting how the program opens files. <br>Additionally, Scratch does **NOT** run on Linux (maybe on a VM or Wine?)
 
 ## Step 2: Running the Tool
-Locate the executable file _BBThinker.exe_ inside the _bbthinker-tool/dist/BBThinker directory_.
+Locate the executable file _BestBrains Thinker.exe_ inside the _BestBrains Thinker_ folder.
 
 On Windows, it will be the file with the type "Application", which you can click on and run to bring up the tool.
 
 ## Step 3: Create a Shortcut
 For easy access to the tool, create a **shortcut**:
 
-Right-click on _BBThinker.exe_.
+Right-click on _BestBrains Thinker.exe_.
 Select **"Create a shortcut"**.
 (Optional) Rename the shortcut to anything you prefer for convenience.
 
@@ -34,3 +34,6 @@ Select **"Create a shortcut"**.
 There has been an issue with Windows detecting a Wacatac trojan in the tool. This is a false-positive, as <br>
 I have checked thoroughly and can confirm it has to do with a common issue due to pyinstaller. If you <>
 are unsure please feel free to research this issue or contact me for any concerns. 
+
+For now, I have disabled the mode with Pyinstaller that hides terminal as that is what seems to have been causing the issue. 
+If anyone has a solution to this issue and they are willing to provide some wisdom please reach out to me. 
